@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Launch directory",
+  "description": "One directory or listing site where an indie product can be submitted. Unknown values are left blank, never guessed.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["name", "url", "last_verified"],
+    "additionalProperties": false,
+    "properties": {
+      "name": {"type": "string"},
+      "url": {"type": "string", "format": "uri", "description": "Site home page."},
+      "submit_url": {"type": "string", "description": "Page where a product is submitted. Blank if not found."},
+      "free_or_paid": {"type": "string", "enum": ["", "free", "free_with_paid_options", "paid"]},
+      "requires_account": {"type": "string", "enum": ["", "yes", "no"]},
+      "link_type": {"type": "string", "enum": ["", "dofollow", "nofollow", "dofollow_with_badge"], "description": "Outbound link type as stated by the site."},
+      "review_time": {"type": "string", "description": "Time to go live, as stated by the site."},
+      "dr": {"type": "string", "description": "Ahrefs Domain Rating when a dated source exists. Blank otherwise."},
+      "dr_source": {"type": "string"},
+      "ai_agent_friendly": {"type": "string", "enum": ["", "yes", "no"], "description": "yes only when the site documents an agent route such as an MCP server."},
+      "submit_steps": {"type": "array", "items": {"type": "string"}, "description": "Ordered steps taken from the site's own pages. Empty if not verified."},
+      "notes": {"type": "string"},
+      "last_verified": {"type": "string", "format": "date"}
+    }
+  }
+}

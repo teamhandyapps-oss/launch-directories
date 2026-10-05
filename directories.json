@@ -1,0 +1,161 @@
+[
+  {
+    "name": "Neeed Directory",
+    "url": "https://neeed.directory",
+    "submit_url": "https://neeed.directory/submit",
+    "free_or_paid": "free_with_paid_options",
+    "requires_account": "yes",
+    "link_type": "dofollow",
+    "review_time": "Live right away after an automatic check",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "",
+    "submit_steps": [
+      "Pick a listing type",
+      "Sign in",
+      "Fill in the form",
+      "Automatic check runs",
+      "Listing goes live right away"
+    ],
+    "notes": "Software and digital products only. Free plan plus one-time paid options. Link type is the site's own statement.",
+    "last_verified": "2026-10-05"
+  },
+  {
+    "name": "Startup Fame",
+    "url": "https://startupfa.me",
+    "submit_url": "",
+    "free_or_paid": "free_with_paid_options",
+    "requires_account": "",
+    "link_type": "dofollow",
+    "review_time": "Several business days",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "",
+    "submit_steps": [],
+    "notes": "Submit URL not found (/submit returns 404). Free listing requires a badge on your site. Paid: Highlight $19/month, Spotlight $149/month. Link type is the site's own statement.",
+    "last_verified": "2026-10-05"
+  },
+  {
+    "name": "TinyLaunch",
+    "url": "https://tinylaunch.com",
+    "submit_url": "https://tinylaunch.com/submit",
+    "free_or_paid": "free_with_paid_options",
+    "requires_account": "yes",
+    "link_type": "dofollow_with_badge",
+    "review_time": "",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "",
+    "submit_steps": [
+      "Sign in with email, Google, GitHub or X",
+      "Submit the launch form",
+      "Embed the TinyLaunch badge on your site to get a dofollow link"
+    ],
+    "notes": "Free launch gets a dofollow link when the badge is embedded. Premium and done-for-you options are paid.",
+    "last_verified": "2026-10-05"
+  },
+  {
+    "name": "Dev Hunt",
+    "url": "https://devhunt.org",
+    "submit_url": "",
+    "free_or_paid": "free_with_paid_options",
+    "requires_account": "",
+    "link_type": "",
+    "review_time": "",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "",
+    "submit_steps": [],
+    "notes": "Submit URL not found. Launches are shown as Free. Ads cost $89/week.",
+    "last_verified": "2026-10-05"
+  },
+  {
+    "name": "Findly",
+    "url": "https://findly.tools",
+    "submit_url": "https://findly.tools/submit",
+    "free_or_paid": "free_with_paid_options",
+    "requires_account": "yes",
+    "link_type": "dofollow",
+    "review_time": "",
+    "dr": "81",
+    "dr_source": "Ahrefs, noted by Team Handyapps 2026-10-02",
+    "ai_agent_friendly": "",
+    "submit_steps": [
+      "Sign in with email, GitHub or Google",
+      "Submit the product on /submit"
+    ],
+    "notes": "Free listing. Paid done-for-you option.",
+    "last_verified": "2026-10-05"
+  },
+  {
+    "name": "ToolFame",
+    "url": "https://toolfame.com",
+    "submit_url": "https://toolfame.com/submit",
+    "free_or_paid": "",
+    "requires_account": "yes",
+    "link_type": "",
+    "review_time": "",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "",
+    "submit_steps": [
+      "Sign in with email, Google or GitHub",
+      "Submit the product on /submit"
+    ],
+    "notes": "Link type, pricing and review time not stated on the site.",
+    "last_verified": "2026-10-05"
+  },
+  {
+    "name": "Nick Launches",
+    "url": "https://nicklaunches.com",
+    "submit_url": "https://nicklaunches.com/submit",
+    "free_or_paid": "",
+    "requires_account": "",
+    "link_type": "",
+    "review_time": "",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "yes",
+    "submit_steps": [
+      "Open the submit form",
+      "Add a logo and screenshots",
+      "Pick a plan and a launch week",
+      "Save as a draft if needed"
+    ],
+    "notes": "Has an MCP server: claude mcp add --transport http nicklaunches https://nicklaunches.com/api/mcp/ (no key; approve in the browser; the agent drafts, a human finishes). Prices not read.",
+    "last_verified": "2026-10-05"
+  },
+  {
+    "name": "Fazier",
+    "url": "https://fazier.com",
+    "submit_url": "https://fazier.com/submit",
+    "free_or_paid": "free_with_paid_options",
+    "requires_account": "",
+    "link_type": "",
+    "review_time": "Within 30 days (Basic plan)",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "",
+    "submit_steps": [],
+    "notes": "Basic plan is free. Paid tiers $29 and $49. A high-authority dofollow link is a paid perk.",
+    "last_verified": "2026-10-05"
+  },
+  {
+    "name": "BetaList",
+    "url": "https://betalist.com",
+    "submit_url": "https://betalist.com/submit",
+    "free_or_paid": "",
+    "requires_account": "yes",
+    "link_type": "",
+    "review_time": "",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "",
+    "submit_steps": [
+      "Sign in with X or a magic link",
+      "Submit the startup on /submit"
+    ],
+    "notes": "Free or paid and link type not stated on the page read.",
+    "last_verified": "2026-10-05"
+  }
+]
