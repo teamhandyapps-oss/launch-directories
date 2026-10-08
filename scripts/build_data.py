@@ -25,17 +25,15 @@ ROWS = [{'name': 'Neeed Directory',
   'url': 'https://startupfa.me',
   'submit_url': '',
   'free_or_paid': 'free_with_paid_options',
-  'requires_account': '',
-  'link_type': 'dofollow',
+  'requires_account': 'yes',
+  'link_type': 'dofollow_with_badge',
   'review_time': 'Several business days',
   'dr': '',
   'dr_source': '',
   'ai_agent_friendly': '',
   'submit_steps': [],
-  'notes': 'Submit URL not found (/submit returns 404). Free listing requires a badge on your '
-           "site. Paid: Highlight $19/month, Spotlight $149/month. Link type is the site's own "
-           'statement.',
-  'last_verified': '2026-10-05'},
+  'notes': "Submit URL not found (/submit returns 404). Free listing requires a badge on your site and a review; no-badge listing is paid (per the site's FAQ, checked 2026-10-08). Paid: Highlight $19/month, Spotlight $149/month. Link type is the site's own statement.",
+  'last_verified': '2026-10-08'},
  {'name': 'TinyLaunch',
   'url': 'https://tinylaunch.com',
   'submit_url': 'https://tinylaunch.com/submit',
@@ -459,3 +457,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
