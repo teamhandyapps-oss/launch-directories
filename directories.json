@@ -157,5 +157,330 @@
     ],
     "notes": "Free or paid and link type not stated on the page read.",
     "last_verified": "2026-10-05"
+  },
+  {
+    "name": "LaunchFree",
+    "url": "https://launchfree.io/",
+    "submit_url": "https://launchfree.io/submit",
+    "free_or_paid": "free_with_paid_options",
+    "requires_account": "",
+    "link_type": "dofollow",
+    "review_time": "24 hours (site-stated)",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "",
+    "submit_steps": [
+      "Enter launch name, URL and tagline (80 characters maximum)",
+      "Choose category, description (100-1200 characters), origin story, status and pricing",
+      "Provide name, email and short bio; agree to terms",
+      "Submit for review"
+    ],
+    "notes": "Site-stated dofollow, not independently inspected on a published listing; no ranking gain established. Required builder name and bio: brand eligibility must be checked before submission. Optional sponsorship separate. Sources: https://launchfree.io/ ; https://launchfree.io/submit",
+    "last_verified": "2026-10-07"
+  },
+  {
+    "name": "IndieLaunch",
+    "url": "https://indielaunch.dev/",
+    "submit_url": "https://indielaunch.dev/submit-your-startup",
+    "free_or_paid": "free_with_paid_options",
+    "requires_account": "yes",
+    "link_type": "dofollow_with_badge",
+    "review_time": "Goes live the day approved; review duration not stated",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "",
+    "submit_steps": [
+      "Sign in with an email code",
+      "Paste URL and review generated details",
+      "Optionally add and verify badge for dofollow",
+      "Submit for manual review"
+    ],
+    "notes": "Without badge the free link is nofollow, according to FAQ. Premium offers dofollow without badge. Site states it exposes llms.txt and MCP; this is machine readability, not a verified submission API. Source: https://indielaunch.dev/submit-your-startup",
+    "last_verified": "2026-10-07"
+  },
+  {
+    "name": "LetsLaunch",
+    "url": "https://letslaunch.today/",
+    "submit_url": "",
+    "free_or_paid": "free_with_paid_options",
+    "requires_account": "",
+    "link_type": "dofollow_with_badge",
+    "review_time": "",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "",
+    "submit_steps": [
+      "Choose an available free launch week",
+      "Submit product",
+      "Place reciprocal badge and pass automatic badge check"
+    ],
+    "notes": "Free launches capped at 20/week; badge required by published FAQ. Five-upvotes-in-seven-days retention rule currently paused, subject to change. Markdown and llms-full.txt documented; no submission API verified. Submit URL and account requirement not verified. Do not treat site DR claim as checked DR. Sources: https://letslaunch.today/ ; https://letslaunch.today/developer-tools-directory",
+    "last_verified": "2026-10-07"
+  },
+  {
+    "name": "10015 Product Finder",
+    "url": "https://10015.io/",
+    "submit_url": "https://10015.io/product-finder/submit",
+    "free_or_paid": "free_with_paid_options",
+    "requires_account": "",
+    "link_type": "nofollow",
+    "review_time": "3-4 months (free standard queue)",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "",
+    "submit_steps": [
+      "Enter live product website URL",
+      "Review generated fields, categories and tags",
+      "Submit for manual review"
+    ],
+    "notes": "Free listings nofollow per FAQ. Priority review and featured/dofollow options paid. Account requirement not verified. Source: https://10015.io/product-finder/submit",
+    "last_verified": "2026-10-07"
+  },
+  {
+    "name": "mcp.tc",
+    "url": "https://mcp.tc/",
+    "submit_url": "https://mcp.tc/submit",
+    "free_or_paid": "free",
+    "requires_account": "no",
+    "link_type": "",
+    "review_time": "Usually minutes for automated checks; unclear cases manual",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "yes",
+    "submit_steps": [
+      "Submit public MCP endpoint, GitHub repository or npm/PyPI URL",
+      "Checker reads handshake and tools; ambiguous cases held for person",
+      "Follow returned status URL for listing or pending outcome"
+    ],
+    "notes": "Documented JSON POST /submit accepts url and optional note; no key/account/charge. Leave personal data and secrets out. One listing per server; duplicate detection. Optional claiming later requires account/domain proof. Link type not verified. Sources: https://mcp.tc/submit ; https://mcp.tc/docs/server-owners ; https://mcp.tc/docs/api",
+    "last_verified": "2026-10-07"
+  },
+  {
+    "name": "mcpi.app",
+    "url": "https://mcpi.app/",
+    "submit_url": "https://mcpi.app/",
+    "free_or_paid": "free",
+    "requires_account": "",
+    "link_type": "",
+    "review_time": "Immediately after domain-control verification",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "",
+    "submit_steps": [
+      "Search for existing listing before creating duplicate",
+      "Scan domain or fill publish card",
+      "Prove control using DNS TXT or well-known HTTP file",
+      "Verify and publish"
+    ],
+    "notes": "Remote MCP endpoint directory; listing is free, no review queue according to own docs. Existing registry imports should be claimed, not duplicated. Domain proof required; account and outbound link type not verified. Source: https://mcpi.app/docs/directory/publish",
+    "last_verified": "2026-10-07"
+  },
+  {
+    "name": "mcpservers.org",
+    "url": "https://mcpservers.org/",
+    "submit_url": "https://mcpservers.org/submit",
+    "free_or_paid": "free_with_paid_options",
+    "requires_account": "",
+    "link_type": "",
+    "review_time": "",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "",
+    "submit_steps": [
+      "Enter server name, short description, GitHub/docs link, category and contact email",
+      "Submit free listing"
+    ],
+    "notes": "Free listings stated; review duration/account requirement not stated. $39 premium adds faster review, official badge and dofollow. Do not infer free link type from premium perk. Source: https://mcpservers.org/submit",
+    "last_verified": "2026-10-07"
+  },
+  {
+    "name": "MCP Harbor Registry",
+    "url": "https://ai.mcpharbor.dev/",
+    "submit_url": "https://ai.mcpharbor.dev/submit",
+    "free_or_paid": "",
+    "requires_account": "",
+    "link_type": "",
+    "review_time": "",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "yes",
+    "submit_steps": [
+      "Provide reverse-DNS name, title, description, version and transport",
+      "Add remote URL for hosted transport or package identifier for stdio",
+      "Add tools, tags and optional repository/website/license",
+      "Submit into maintainer review queue"
+    ],
+    "notes": "Documented JSON API POST /api/v0/servers and submit_server MCP tool. Manual review, not automatic publication. Pricing/account/link type not explicitly verified from submission page. Never include API secret values in environment variables. Source: https://ai.mcpharbor.dev/submit",
+    "last_verified": "2026-10-07"
+  },
+  {
+    "name": "Tolodora",
+    "url": "https://tolodora.com/",
+    "submit_url": "https://tolodora.com/launch",
+    "free_or_paid": "free_with_paid_options",
+    "requires_account": "",
+    "link_type": "",
+    "review_time": "Instant (site-stated)",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "",
+    "submit_steps": [
+      "Add name, logo, pitch, screenshots and website",
+      "Submit to publish"
+    ],
+    "notes": "Site states no queue and free core listing; optional paid premium placement. Badge offered but no mandatory badge verified. Account requirement and followed-link status unknown. Software, SaaS, apps and services eligible per own page. Source: https://tolodora.com/launch",
+    "last_verified": "2026-10-07"
+  },
+  {
+    "name": "MCP Collection",
+    "url": "https://mcpcollection.com/",
+    "submit_url": "https://mcpcollection.com/submit",
+    "free_or_paid": "free",
+    "requires_account": "no",
+    "link_type": "",
+    "review_time": "",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "yes",
+    "submit_steps": [
+      "Provide server name, tagline, category, review email and at least one repository/homepage/endpoint URL",
+      "Submit via web form or documented JSON API",
+      "Hosted endpoint handshake checked; accepted submissions wait for manual review"
+    ],
+    "notes": "GET https://mcpcollection.com/api/submit documents field schema, no authentication and POST route. Duplicate returns 409. Link type and review time unstated. Rev-share bundle invitation is separate, not automatic participation. Sources: https://mcpcollection.com/submit ; https://mcpcollection.com/api/submit",
+    "last_verified": "2026-10-07"
+  },
+  {
+    "name": "llmstxt.info",
+    "url": "https://llmstxt.info/",
+    "submit_url": "https://llmstxt.info/submit/?lang=en",
+    "free_or_paid": "free_with_paid_options",
+    "requires_account": "",
+    "link_type": "",
+    "review_time": "Within 48 hours editorial review (Standard free plan)",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "",
+    "submit_steps": [
+      "Choose Standard Free, not a paid listing or monitoring plan",
+      "Create or provide llms.txt",
+      "Complete organization and notification details",
+      "Submit for editorial review"
+    ],
+    "notes": "Free Standard directory entry explicitly offered; paid expanded listings and monitoring separate. No account needed for check/generator, but listing account requirement not verified. No ranking/indexing/AI-mention guarantee per own FAQ. Plan badges are site display labels, not a verified reciprocal-site requirement. Link type left blank pending direct inspection. Sources: https://llmstxt.info/ ; https://llmstxt.info/submit/?lang=en",
+    "last_verified": "2026-10-07"
+  },
+  {
+    "name": "MCP.Directory",
+    "url": "https://mcp.directory/",
+    "submit_url": "https://mcp.directory/submit",
+    "free_or_paid": "",
+    "requires_account": "",
+    "link_type": "",
+    "review_time": "Within 24 hours (site-stated)",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "",
+    "submit_steps": [
+      "Provide GitHub server repository",
+      "Optionally add npm/PyPI package and short description",
+      "Provide review notification details and submit"
+    ],
+    "notes": "Metadata fetched from GitHub. Pricing/account/link-type not explicitly verified on source page. No auto-approval promise inferred. Source: https://mcp.directory/submit",
+    "last_verified": "2026-10-07"
+  },
+  {
+    "name": "skillz.directory",
+    "url": "https://skillz.directory/",
+    "submit_url": "https://skillz.directory/submit",
+    "free_or_paid": "",
+    "requires_account": "",
+    "link_type": "",
+    "review_time": "",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "",
+    "submit_steps": [
+      "Provide skill description and repository containing SKILL.md",
+      "Provide approval notification contact",
+      "Submit for review"
+    ],
+    "notes": "Agent skill submissions reviewed before publication. Pricing/account/link-type/review duration not stated in page read. Source: https://skillz.directory/submit",
+    "last_verified": "2026-10-07"
+  },
+  {
+    "name": "skillsdirectory.co",
+    "url": "https://skillsdirectory.co/",
+    "submit_url": "https://skillsdirectory.co/submit",
+    "free_or_paid": "",
+    "requires_account": "",
+    "link_type": "",
+    "review_time": "Worthiness gate within 24 hours; Tier A indexed about 48 hours",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "",
+    "submit_steps": [
+      "Provide fetchable GitHub, package, MCP registry or other supported capability source URL",
+      "Identify author/user/third-party relationship and optional context",
+      "Submit for worthiness gate"
+    ],
+    "notes": "Tier A indexed; Tier B listing noindex until more signal; Tier C declined. A listing is not necessarily indexed. Pricing/account/link type unstated. Source: https://skillsdirectory.co/submit",
+    "last_verified": "2026-10-07"
+  },
+  {
+    "name": "SkillsLookup",
+    "url": "https://skillslookup.com/",
+    "submit_url": "https://skillslookup.com/submit-skill",
+    "free_or_paid": "",
+    "requires_account": "",
+    "link_type": "",
+    "review_time": "Typically within 48 hours",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "",
+    "submit_steps": [
+      "Provide direct repository URL and skill name",
+      "Describe outcomes accurately with category and documentation",
+      "Submit for manual review"
+    ],
+    "notes": "Accepts agent skills and MCP servers. Maintenance, setup documentation and reproducible examples considered. Pricing/account/link type not stated. Source: https://skillslookup.com/submit-skill",
+    "last_verified": "2026-10-07"
+  },
+  {
+    "name": "llmstxt.site",
+    "url": "https://llmstxt.site/",
+    "submit_url": "https://llmstxt.site/submit",
+    "free_or_paid": "",
+    "requires_account": "",
+    "link_type": "",
+    "review_time": "",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "",
+    "submit_steps": [
+      "Provide product name and llms.txt URL",
+      "Add llms-full.txt URL and contextual notes if available",
+      "Submit directory suggestion"
+    ],
+    "notes": "Directory of llms.txt locations. No stated review duration, account requirement, pricing or outbound link type in form read. Source: https://llmstxt.site/submit",
+    "last_verified": "2026-10-07"
+  },
+  {
+    "name": "CuratedMCP",
+    "url": "https://www.curatedmcp.com/",
+    "submit_url": "https://www.curatedmcp.com/publish",
+    "free_or_paid": "free_with_paid_options",
+    "requires_account": "",
+    "link_type": "",
+    "review_time": "",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "",
+    "submit_steps": [
+      "Provide server name, GitHub URL, tagline and install command",
+      "Publish using directory listing route"
+    ],
+    "notes": "Free core listing explicitly stated; security certification and monetization optional, not included evidence of certification. Account/review duration/outbound-link type unknown. Six-client installation configs advertised, not independently tested. Source: https://www.curatedmcp.com/publish",
+    "last_verified": "2026-10-07"
   }
 ]
