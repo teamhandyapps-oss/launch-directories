@@ -439,6 +439,26 @@ ROWS = [{'name': 'Neeed Directory',
                    'Publish using directory listing route'],
   'last_verified': '2026-10-07'}]
 
+ROWS.append({'name': 'Public Prompts',
+ 'url': 'https://www.publicprompts.art/',
+ 'submit_url': 'https://www.publicprompts.art/submit',
+ 'free_or_paid': 'paid',
+ 'requires_account': 'yes',
+ 'link_type': '',
+ 'review_time': 'Accepted listings within two days of payment',
+ 'dr': '',
+ 'dr_source': '',
+ 'ai_agent_friendly': '',
+ 'submit_steps': ['Sign in',
+                  'Provide tool details',
+                  'Pay the one-time editorial review fee',
+                  'Await editorial review'],
+ 'notes': 'Curated AI-tools directory. Browsing is free; owner submissions '
+          'cost US$19.99 once plus applicable tax before editorial review. '
+          'Rejected or unpublishable submissions are refunded. Source: '
+          'https://www.publicprompts.art/editorial-policy',
+ 'last_verified': '2026-11-07'})
+
 def full(row):
     out = {k: row.get(k, "") for k in FIELDS}
     out["submit_steps"] = row.get("submit_steps", [])

@@ -482,5 +482,25 @@
     ],
     "notes": "Free core listing explicitly stated; security certification and monetization optional, not included evidence of certification. Account/review duration/outbound-link type unknown. Six-client installation configs advertised, not independently tested. Source: https://www.curatedmcp.com/publish",
     "last_verified": "2026-10-07"
+  },
+  {
+    "name": "Public Prompts",
+    "url": "https://www.publicprompts.art/",
+    "submit_url": "https://www.publicprompts.art/submit",
+    "free_or_paid": "paid",
+    "requires_account": "yes",
+    "link_type": "",
+    "review_time": "Accepted listings within two days of payment",
+    "dr": "",
+    "dr_source": "",
+    "ai_agent_friendly": "",
+    "submit_steps": [
+      "Sign in",
+      "Provide tool details",
+      "Pay the one-time editorial review fee",
+      "Await editorial review"
+    ],
+    "notes": "Curated AI-tools directory. Browsing is free; owner submissions cost US$19.99 once plus applicable tax before editorial review. Rejected or unpublishable submissions are refunded. Source: https://www.publicprompts.art/editorial-policy",
+    "last_verified": "2026-11-07"
   }
 ]
